@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background-color: #cccccc;
+}
+
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+img{
+    height: 200px;
+    right: 200px;
+    border-radius: 60%;
+
+}
+/* cabecalho
+------------------------------------------------------------------------------------------------------------------ */
+
+h1{
+    color: #FF0000;
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+section{
+    margin: 30px auto;
+    display: flex;
+    width: 60vw;
+    background-color:darkgrey;
+}
+
+#segunda{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+nav{
+    background-color: darkgrey;
+    height: 50px;
+    display: flex;   /*navegacao flexivel */
+    align-items: center; /*alinhar os elementoa na nav */
+    justify-content: space-around; /*espaçar os elementos na nav */
+}
+
+#botoescabecalho{
+    position: absolute; /**/
+    right: 10px;
+    top: 10px;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.linkcabecalho{
+    color: #000000;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------
+cabecalho */
+
